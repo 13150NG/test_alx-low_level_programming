@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * Program using one main block
+ * main - single main block
  * Simple string output program
- * expected Return value:0
+ * Return: 0
  */
 
 int main(void)
