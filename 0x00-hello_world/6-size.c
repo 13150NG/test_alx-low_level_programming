@@ -1,10 +1,9 @@
 #include <stdio.h>
 /**
  * main - single main block
- * program that prints the size of various data types on the computer it is compiled and run on
+ * program that prints the size of various data types 
  * Return: 0
  */
-
 int main(void)
 {
 	char c;
