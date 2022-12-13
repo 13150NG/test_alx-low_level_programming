@@ -2,10 +2,10 @@
 #include <time.h>
 #include <stdlib.h>
 /**
- * main - main project block used
- * Program to get random numbers and check its last digit, compare
+ * main - main block
+ *Description: Program to get random numbers and check its last digit, compare
  * it with 5
- * Return value : 0
+ * Return: 0
  */
 int main(void)
 {
