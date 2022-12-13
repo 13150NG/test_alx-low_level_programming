@@ -19,33 +19,27 @@ int main(void)
 		while (n < 10)
 		{
 			i = 0;
-			while (i < 10)
-			{
-
-				i = 0;
 				while (i < 10)
+			{
+				if (i != n && n != t && t < n && n < i)
 				{
-					if (i != n && n != t && t < n && n < i)
+					putchar('0' + t);
+					putchar('0' + n);
+					putchar('0' + i);
+
+					if (i + n + t != 9 + 8 + 7)
 					{
-						putchar('0' + t);
-						putchar('0' + n);
-						putchar('0' + i);
-
-						if (i + n + t != 9 + 8 + 7)
-						{
-							putchar(',');
-							putchar(' ');
-						}
+						putchar(',');
+						putchar(' ');
 					}
-
-					i++;
-
 				}
-				n++;
+				i++;
 			}
-			t++;
+			n++;
 		}
-		putchar('\n');
-		return (0);
+		t++;
 	}
+	putchar('\n');
+	return (0);
 }
+
